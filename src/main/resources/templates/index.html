@@ -1,0 +1,38 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta content="application/json">
+    <title>Crud - Docket</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+
+</head>
+
+<body>
+<h1>CRUD cartorio - Docket</h1>
+
+
+<form action="/api/v1/cartorios/create" method="post">
+
+    <div class="texto">
+        <fieldset>
+        <table>
+                <legend>Campos Cadastrais</legend>
+                <tr>
+                    <td>
+                        <label>id</label>
+                        <input name="id">
+                    </td>
+                    <td>
+                        <label>nome</label>
+                        <input name="nome">
+                    </td>
+                    <td>
+                        <input type="submit" value="salvar"> <input type="reset" value="Limpar">
+                    </td>
+                </tr>
+        </table>
+        </fieldset>
+    </div>
+</form>
+</body>
+</html>

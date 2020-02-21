@@ -1,0 +1,55 @@
+body {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #ffffff;
+
+}
+
+.h1 {
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.texto {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+}
+
+.fieldset {
+	font-family: "Times New Roman", Times, serif;
+	color: #332940;
+}
+
+table {
+	table-layout: cellspacing="10";
+	color: black;
+}
+
+td {
+	font-family: 'PT Sans', sans-serif;
+	font-size: border 1px ;
+	color: black;
+}
+
+tr {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	border: 0px ;
+	border: 0px ;
+
+
+
+th {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: normal;
+
+}
+
+input { 
+	background-color: #332940;
+
+}
